@@ -1,3 +1,74 @@
-h1 {
-    color: purple;
+.nav-button:hover {
+    background-color: #b7a57a;
+}
+
+header {
+    color: #4527a0;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+#vision {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+section:nth-of-type(1) {
+    text-align: center;
+    background-image: none;
+}
+
+h2 {
+    text-decoration: underline;
+    color: #b7a57a;
+}
+
+.collection {
+  color: white;
+}
+
+.collection-item:hover {
+  color: #b7a57a;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+}
+
+
+@media (min-width: 600px) {
+    #map {
+        height: 429px;
+    }
+    section:nth-of-type(1) {
+      background-image: url(../img/uw-quad2.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) {
+    #map {
+      height: 708px
+    }
+}
+
+@media (min-width: 1200px) {
+    #map {
+      height: 857px
+    }
 }
