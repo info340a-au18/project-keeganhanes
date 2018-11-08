@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Parking Info</title>
@@ -7,28 +8,34 @@
     <meta name="description" content="Info about parking">
     <meta name="keywords" content="UW, Parking, U-District, Gameday, Ticket, Support">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="normalize" href="css/normalize.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
+
 <body>
-    <div class="navbar-fixed" role="navigation">
+
+    <!--Navigation Bar-->
+    <div class="navbar" role="navigation">
         <nav>
             <div class="nav-wrapper #4527a0 deep-purple darken-3" role="navigation color">
             <a href="#" class="brand-logo left">Info</a>
                 <ul id="nav-mobile" class="right" role="button positions">
-                    <li class="nav-button" role="navigation button"><a href="file:///C:/Users/Admin/Documents/Info340/project-keeganhanes/index.html">Home</a></li>
-                    <li class="nav-button" role="navigation button"><a href="file:///C:/Users/Admin/Documents/Info340/project-keeganhanes/index.html#contact">Contact</a></li>
+                    <li class="nav-button" role="navigation button"><a href="../project-keeganhanes/index.html">Home</a></li>
+                    <li class="nav-button" role="navigation button"><a href="../project-keeganhanes/index.html#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </div>
+
+    <!--Group of First 3 Info Cards-->
     <div class="row">
+
+        <!--Found Parking Card-->
         <div class="col s12 m6 l4" role="layout">
-            <div class="card hoverable" role="textbox">
+            <div class="card medium hoverable" role="textbox">
             <div class="card-image" role="img">
                 <img src="img/parking-garage.jpg" alt="Parking garage sign">
                 <span class="card-title">Find parking that we didn't?</span>
@@ -43,8 +50,10 @@
             </div>
             </div>
         </div>
+
+        <!--Gameday Card-->
         <div class="col s12 m6 l4" role="layout">
-            <div class="card hoverable" role="textbox">
+            <div class="card medium hoverable" role="textbox">
             <div class="card-image" role="img">
                 <img src="img/gameday.jpg" alt="Stadium">
                 <span class="card-title">Here for gameday?</span>
@@ -59,8 +68,10 @@
             </div>
             </div>
         </div>
+
+        <!--Something Not Right Card-->
         <div class="col s12 m6 l4" role="layout">
-            <div class="card hoverable" role="textbox">
+            <div class="card medium hoverable" role="textbox">
             <div class="card-image" role="img">
                 <img src="img/parking.jpg" alt="Parking lot">
                 <span class="card-title">Something not right?</span>
@@ -76,9 +87,13 @@
             </div>
         </div>
     </div>
+
+    <!--Last two Info Cards-->
     <div class="row">
+
+        <!--Parking Ticket Card-->
         <div class="col s12 m6 l4" role="layout">
-            <div class="card hoverable" role="textbox">
+            <div class="card medium hoverable" role="textbox">
             <div class="card-image" role="img">
                 <img src="img/parking-ticket.jpg" alt="Police Officer giving ticket">
                 <span class="card-title">Got a parking <br> ticket?</span>
@@ -93,10 +108,12 @@
             </div>
             </div>
         </div>
+
+        <!--More Help Card-->
         <div class="col s12 m6 l4" role="layout">
-          <div class="card hoverable" role="textbox">
+          <div class="card medium hoverable" role="textbox">
             <div class="card-image" role="img">
-              <img src="img/favicon.png" alt="U-District Parking logo">
+              <img src="img/favicon-image.jpg" alt="U-District Parking logo">
               <span class="card-title"></span>
             </div>
             <div class="card-content" role="text">
@@ -108,6 +125,15 @@
           </div>
         </div>
     </div>
+
+    <!--JavaScript libraies-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+    <!--Footer with photo attributions and Copyright-->
+    <footer>
+        <small>&#169; Copyright 2018 Info340/project-keeganhanes</small>
+    </footer>
 </body>
 </html>
